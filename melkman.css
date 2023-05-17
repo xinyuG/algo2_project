@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    background-color: #FDFCFA;
+}
+
+svg {
+    float: right;
+}
+
+text, h1, h2, p, li {
+    /* It's the same for SVG and HTML! */
+    font-family: avenir, open-sans, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+}
+
+p {
+    margin: 32px 20px;
+}
+
+p.finale {
+    margin: 0px 20px;
+}
+
+p.finale-top {
+    margin: 32px 20px 16px;
+}
+
+h1 { font-size: 36px; }
+h2 { font-size: 18px; }
+
+svg text {
+    text-anchor: middle;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.leftside {
+    margin-top: 15px;
+    width: 400px;
+}
+
+.cover {
+    fill: #fdfafc;
+    stroke: red;
+    stroke-width: 40;
+}
+
+.region {
+    stroke: none;
+}
+
+strong.yellow {
+    background-color: #FFFF84;
+}
+
+strong.red {
+    background-color: rgb(244, 111, 111);
+}
+
+strong.blue {
+    background-color: rgb(0, 191, 255);
+}
+
+strong.green {
+    background-color: rgb(1, 255, 1);
+}
+
+strong.white {
+    background-color: white;
+}
+
+strong.error-red {
+    color: red;
+}
+
+.hull-vertex circle {
+    fill: white;
+    stroke: black;
+}
+
+.interior-vertex circle {
+    fill: black;
+    stroke: none;
+}
+
+.hull-vertex text {
+    font-size: 14px;
+}
+
+.deque-vertex text {
+    font-size: 18px;
+}
+
+.deque-vertex rect {
+    fill: white;
+}
+
+line, polyline, rect, path {
+    fill: none;
+    stroke: black;
+    stroke-width: 2;
+}
+
+path.hull, line.hull {
+    stroke: #15B6E5;
+    stroke-width: 6;
+}
+
+strong.hull {
+    background-color: #15B6E5;
+}
+
+line.err {
+    stroke: red;
+    stroke-width: 4;
+}
+
+line.dashed {
+    stroke: #DDD;
+    stroke-width: 1;
+    stroke-dasharray: 10, 10;
+}
+
+rect.bg {
+    stroke: #BDBAB6;
+    stroke-width: 1px;
+    fill: #FFF;
+}
+
+text.body1 {
+    text-anchor: start;
+}
+
+/* only for test porpose */
+path.test {
+    stroke: #9215e5;
+    stroke-width: 99;
+}
